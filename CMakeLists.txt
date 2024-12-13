@@ -5,4 +5,10 @@ project(
   CXX
 )
 
+if (CMAKE_BUILD_TYPE STREQUAL "")
+  set(CMAKE_BUILD_TYPE Debug)
+endif()
+
+message(STATUS "Build\ type\ is: ${CMAKE_BUILD_TYPE}")
+
 add_subdirectory(src)

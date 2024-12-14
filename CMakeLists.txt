@@ -19,5 +19,4 @@ add_compile_options(-std=c++14 -Wall -Werror -pedantic-errors)
 message(STATUS "Build\ type\ is: ${CMAKE_BUILD_TYPE}")
 
 add_subdirectory(src)
-add_subdirectory(subprojects/glm)
 add_subdirectory(subprojects/cgc)

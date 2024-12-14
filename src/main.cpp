@@ -1,7 +1,6 @@
 #include <iostream>
-#define PROJECT_NAME "my_learning"
 
 int main(void) {
-  std::cout << PROJECT_NAME << std::endl;
+  std::cout << "我的C plus plus学习仓库（简称练手）" << std::endl;
   return 0;
 }

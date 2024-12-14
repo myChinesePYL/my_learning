@@ -1,0 +1,6 @@
+[submodule "subprojects/glm"]
+	path = subprojects/glm
+	url = https://github.com/g-truc/glm
+[submodule "subprojects/cgc"]
+	path = subprojects/cgc
+	url = https://github.com/mychinesepyl/cgc.git
